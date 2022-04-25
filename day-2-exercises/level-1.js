@@ -78,3 +78,54 @@ console.log(determineTheFirstPosition.indexOf(3))
 
 const determineTheLastPosition = '30 Days Of JavaScript'
 console.log(determineTheLastPosition.lastIndexOf('t'))
+
+//17.Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+const textmessage = 'You cannot end a sentence with because because because is a conjunction'
+console.log(textmessage.indexOf('because'))
+
+//18.Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+const textmessages = 'You cannot end a sentence with because because because is a conjunction'
+console.log(textmessages.lastIndexOf('because'))
+
+//19.Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+
+const sentence = 'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence.search('because'))
+
+
+//20.Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+
+const string = '   i am writing   '
+console.log(string.trim(' '))
+
+
+//21.Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+
+const stringStartWith = '30 Days Of JavaScript'
+console.log(stringStartWith.startsWith(''))
+
+
+//22.Use endsWith() method with the string 30 Days Of JavaScript and make the result true
+
+const stringEndWith = '30 Days Of JavaScript'
+console.log(stringEndWith.endsWith(''))
+
+
+//23.Use match() method to find all the a’s in 30 Days Of JavaScript
+
+const stringMatch = '30 Days Of JavaScript'
+console.log(stringMatch.match('a'))
+
+
+//24.Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+
+const stringConcat = '30 Days Of '
+console.log(stringConcat.concat('JavaScript'))
+
+
+//25.Use repeat() method to print 30 Days Of JavaScript 2 times
+
+const stringRepeat = '30 Days Of JavaScript'
+console.log(stringRepeat.repeat('2'))
