@@ -8,18 +8,17 @@
 // console.log(result)
 
 //sum of arrays:
-// const numbers = [1,2,3]
-//  function sumOfNumbers(sum){
-//    let num = 0;
-//     for(let i=0;i<sum.length;i++){
-       
-//        num = num + sum[i]
-//     }
-//     return num;
-//  }
 
-//  let result1 = sumOfNumbers(numbers)
-//  console.log(result1)
+ function sumOfNumbers(numbers){
+   let totalNumber = 0;
+    for(let position=0;position<numbers.length;position++){
+      totalNumber = totalNumber + numbers[position]
+    }
+    return totalNumber;
+ }
+ const numbers = [1,2,3];
+ let total = sumOfNumbers(numbers)
+ console.log(total)
 
 
  ////3
@@ -73,7 +72,6 @@
 //     if(maxNum<value){
 //       maxNum =value;
 //     }
-
 //   }
 //   return maxNum
 // }
@@ -85,11 +83,11 @@
 
 //7.
 
-const a = [1,2,3,4,5,6];
-const lastvalue = a[a.length-1];
-for(let i=a.length-1;i>=0;i--){
-  a[i] = a[i-1];
-}
+// const a = [1,2,3,4,5,6];
+// const lastvalue = a[a.length-1];
+// for(let i=a.length-1;i>=0;i--){
+//   a[i] = a[i-1];
+// }
 
-a[0] = lastvalue;
-console.log(a)
+// a[0] = lastvalue;
+// console.log(a)
