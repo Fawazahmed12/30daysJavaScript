@@ -55,3 +55,18 @@ const myAge = 'I am 25 years old.'
 const yourAge = 'You are 30 years old.'
 
 console.log(myAge,yourAge)
+
+
+
+
+
+
+let isRaining = true
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+isRaining = false
+
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
