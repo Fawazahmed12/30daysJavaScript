@@ -10,3 +10,24 @@ shoppingCart.unshift('meat')
 console.log(shoppingCart)
 
 
+
+shoppingCart.push('sugar')
+console.log(shoppingCart)
+
+
+
+
+shoppingCart.push()
+console.log(shoppingCart)
+
+
+
+shoppingCart.splice(3,3)
+console.log(shoppingCart)
+
+
+
+shoppingCart.splice(2, 1, "Green Tea")
+console.log(shoppingCart)
+
+

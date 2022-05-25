@@ -6,4 +6,4 @@ let text =
 // console.log(words.length)
 // ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
 
-console.log(text.split(' '))
+console.log(text.split(' ').length)
